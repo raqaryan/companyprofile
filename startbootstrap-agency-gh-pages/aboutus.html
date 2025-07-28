@@ -1,0 +1,705 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>About Us - Construction Company</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        line-height: 1.6;
+        color: #333;
+        max-width: 1200px;
+        margin: 0 auto;
+        padding: 20px;
+      }
+
+      .header {
+        text-align: center;
+        margin-bottom: 40px;
+      }
+
+      h1 {
+        color: #0056b3;
+        font-size: 2.5em;
+        margin-bottom: 10px;
+      }
+
+      h2 {
+        color: #0056b3;
+        border-bottom: 2px solid #0056b3;
+        padding-bottom: 5px;
+        margin-top: 30px;
+      }
+
+      .tagline {
+        font-size: 1.2em;
+        font-weight: bold;
+        margin-bottom: 20px;
+        color: #555;
+      }
+
+      .section {
+        margin-bottom: 40px;
+      }
+
+      .experience-badge {
+        background-color: #0056b3;
+        color: white;
+        padding: 10px 20px;
+        display: inline-block;
+        font-weight: bold;
+        margin: 20px 0;
+        border-radius: 5px;
+      }
+
+      .services {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        margin: 20px 0;
+      }
+
+      .service-item {
+        text-align: center;
+        padding: 15px;
+        margin: 10px;
+        flex-basis: 20%;
+        min-width: 150px;
+        font-weight: bold;
+      }
+
+      .partners {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+        margin: 30px 0;
+      }
+      .section-title {
+    color: #0056b3 !important;
+    font-size: 2.2em;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.section-subtitle {
+    color: #0056b3 !important;
+    font-size: 1.3em;
+    font-weight: 600;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.partner-description {
+    color: #0056b3;
+    font-size: 1.1em;
+    font-style: italic;
+    text-align: center;
+    margin-top: 30px;
+    padding: 20px;
+    background-color: #f0f8ff;
+    border-radius: 8px;
+    border-left: 4px solid #0056b3;
+}
+      .partner-logo {
+    max-width: 120px;
+    height: auto;
+    transition: transform 0.3s ease;
+}
+
+.partner-logo:hover {
+    transform: scale(1.1);
+}
+
+      .mission-list {
+        list-style-type: none;
+        padding-left: 0;
+      }
+
+      .mission-list li {
+        margin-bottom: 15px;
+        position: relative;
+        padding-left: 25px;
+      }
+
+      .mission-list li:before {
+        content: "•";
+        color: #0056b3;
+        font-size: 1.5em;
+        position: absolute;
+        left: 0;
+        top: -5px;
+      }
+    </style>
+  </head>
+ <body>
+    <div class="header">
+      <h1>About Us</h1>
+      <p class="tagline">Doing The Right Things & Doing Things Right</p>
+    </div>
+
+    <div class="section">
+      <div class="content-container">
+        <div class="text-content">
+          <p>
+            When you need a reliable partner in developing your energy
+            facilities or power plant, we are the right choice to ensure your
+            project's success. We dedicate our full effort to meet your project
+            objectives—on time, within budget, and with uncompromised quality.
+          </p>
+
+          <p>
+            We continuously enhance our expertise in energy systems, plant
+            operation, and power generation infrastructure. Our experience in
+            risk analysis and project management ensures we can respond to the
+            complexity and scale of power plant development. From dynamic
+            engineering challenges to multi-disciplinary coordination, we manage
+            every phase of construction with precision.
+          </p>
+
+          <p>
+            Our commitment is to deliver each stage of the project to match your
+            requirements and timeline. Clear and timely reporting allows you to
+            maintain full control of your project's progress. Our experienced
+            team is the core of our success. They are ready to be your trusted
+            partner—ensuring smooth communication, efficient collaboration, and
+            seamless execution from concept to commissioning.
+          </p>
+        </div>
+
+        <div class="right-column">
+    <div class="image-container">
+        <div class="experience-badge">
+            <div class="years-number" id="counter">7</div>
+            <div class="years-text">Years Experience</div>
+        </div>
+          <div class="image-stack">
+            <div class="image-content">
+              <img
+                src="assets/img/portfolio/alignment.jpg"
+                alt="Energy project alignment"
+              />
+            </div>
+            <div class="image-content">
+              <img
+                src="assets/img/portfolio/vesseltank.jpg"
+                alt="Vessel tank construction"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <style>
+        .content-container {
+          display: flex;
+          gap: 40px;
+          align-items: flex-start;
+        }
+
+        .text-content {
+          flex: 2;
+        }
+
+        .right-column {
+          flex: 1;
+          display: flex;
+          flex-direction: column;
+          gap: 20px;
+          max-width: 400px;
+        }
+
+        .image-stack {
+          display: flex;
+          flex-direction: column;
+          gap: 20px;
+        }
+
+        .image-content img {
+          width: 100%;
+          height: auto;
+          border-radius: 8px;
+          box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+          transition: transform 0.3s ease;
+        }
+
+        .image-content img:hover {
+          transform: scale(1.02);
+        }
+
+          .experience-badge {
+        position: absolute;
+    top: 20px;
+    left: 20px;
+    z-index: 10;
+    background-color: #ffffff;
+    color: #333;
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.15);
+  }
+  
+  .years-number {
+    font-size: 48px;
+    color: #f39c12;
+    font-weight: bold;
+    line-height: 1;
+  }
+  
+  .years-text {
+    font-size: 16px;
+    font-weight: normal;
+    line-height: 1.2;
+    margin-top: 5px;
+  }
+  
+  @media (max-width: 768px) {
+    .experience-badge {
+      margin-left: 0;
+      margin-top: 20px;
+      width: 120px;
+    }
+    
+    .years-number {
+      font-size: 36px;
+    }
+    
+    .years-text {
+      font-size: 14px;
+    }
+  }
+</style>
+<script>
+        // Fungsi untuk menghitung tahun berdasarkan tanggal didirikan
+        function calculateYearsExperience() {
+            const foundingYear = 2018; // Tahun didirikan perusahaan
+            const currentYear = new Date().getFullYear();
+            return currentYear - foundingYear;
+        }
+
+        // Fungsi animasi counter
+        function animateCounter() {
+            const counter = document.getElementById('counter');
+            const target = calculateYearsExperience();
+            let current = 0;
+            const increment = target / 50; // Kecepatan animasi
+            const timer = setInterval(() => {
+                current += increment;
+                if (current >= target) {
+                    counter.textContent = target;
+                    clearInterval(timer);
+                } else {
+                    counter.textContent = Math.floor(current);
+                }
+            }, 50);
+        }
+
+        // Intersection Observer untuk trigger animasi saat badge terlihat
+        function setupObserver() {
+            const badge = document.querySelector('.experience-badge');
+            const observer = new IntersectionObserver((entries) => {
+                entries.forEach(entry => {
+                    if (entry.isIntersecting) {
+                        animateCounter();
+                        observer.unobserve(entry.target); // Hanya animasi sekali
+                    }
+                });
+            }, {
+                threshold: 0.5 // Trigger saat 50% badge terlihat
+            });
+
+            observer.observe(badge);
+        }
+
+        // Jalankan saat halaman dimuat
+        document.addEventListener('DOMContentLoaded', function() {
+            setupObserver();
+        });
+    </script>
+
+    </div>
+</body>
+
+     
+
+<div class="mission-section">
+  <h2>Our Mission</h2>
+  <div class="mission-container">
+    <div class="mission-heading">
+      <h3>To become World-class Service Enginering</h3>
+    </div>
+    <div class="mission-content">
+     
+    </div>
+  </div>
+</div>
+
+
+      <img src="assets/img/portfolio/eng.jpg" alt="Global energy solutions">
+    </div>
+    <div class="mission-content">
+      <p>We are a trusted partner in the energy and power plant services sector, with a strong foundation in oil & gas operations. Our mission is to provide reliable and innovative solutions that help clients optimize their energy infrastructure and achieve operational excellence.</p>
+      <p>We continuously enhance our expertise to meet the evolving challenges in energy systems, power generation, and industrial operations. Our focus is on delivering high-performance services tailored to each client's unique needs—whether in plant maintenance, risk management, operational support, or system optimization.</p>
+      
+    </div>
+  </div>
+</div>
+
+<style>
+  /* Mission Section Styles */
+  .mission-section {
+    margin-bottom: 60px;
+  }
+  
+  .mission-container {
+    background-color: #f8f9fa;
+    padding: 30px;
+    border-radius: 8px;
+    border-left: 5px solid #0056b3;
+  }
+  
+  .mission-heading h3 {
+    font-size: 28px;
+    color: #0056b3;
+    margin-bottom: 20px;
+    line-height: 1.3;
+    font-weight: 600;
+  }
+  
+  .mission-content p {
+    font-size: 16px;
+    line-height: 1.6;
+    color: #333;
+  }
+  
+  
+   /* Mission Section Styles */
+  .vision-section {
+    margin-bottom: 60px;
+  }
+  
+  .vision-container {
+    background-color: #f8f9fa;
+    padding: 30px;
+    border-radius: 8px;
+    border-left: 5px solid #0056b3;
+  }
+  
+  .vision-heading h3 {
+    font-size: 28px;
+    color: #0056b3;
+    margin-bottom: 20px;
+    line-height: 1.3;
+    font-weight: 600;
+  }
+  
+  .vision-content p {
+    font-size: 16px;
+    line-height: 1.6;
+    color: #333;
+  }
+  
+ 
+</style>
+              
+      
+      
+    
+
+  <section class="section">
+    <h2 class="right-align">Our Vission</h2>
+    <ul class="mission-list">
+        <div class="mission-container">
+            <div class="mission-heading">
+                <h3>To become World-class Service Engineering</h3>
+            </div>
+        </div>
+    </ul>
+
+
+ 
+     <ul class="services-list">
+    <li class="service-block">
+        <img src="assets/img/portfolio/engpict.png" alt="Engineering" class="img-fluid">
+        <span>Engineering</span>
+    </li>
+    <li class="service-block">
+        <img src="assets/img/portfolio/mechanical.png" alt="Mechanical" class="img-fluid">
+        <span>Mechanical</span>
+    </li>
+    <li class="service-block">
+        <img src="assets/img/portfolio/elctrical.png" alt="Electrical and Instrument" class="img-fluid">
+        <span>Electrical and Instrument</span>
+    </li>
+    <li class="service-block">
+        <img src="assets/img/portfolio/comissioning.png" alt="Commissioning" class="img-fluid">
+        <span>Commissioning</span>
+    </li>
+</ul>
+
+<style>
+/* ====== SERVICES LIST ====== */
+.services-list {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    list-style: none;
+    padding: 0;
+    margin: 30px auto;
+    gap: 30px;
+}
+
+.service-block {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 200px;
+    text-align: center;
+}
+
+.service-block img {
+    width: 180px;
+    height: 120px;
+    object-fit: contain;
+    margin-bottom: 10px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.service-block span {
+    font-size: 16px;
+    font-weight: bold;
+    color: #333;
+}
+
+
+/* ====== PROJECT GRID ====== */
+.section {
+    padding: 40px 20px;
+    text-align: center;
+    background-color: #f8f8f8;
+}
+
+.section h2 {
+    font-size: 32px;
+    margin-bottom: 5px;
+    color: #333;
+}
+
+.section p {
+    font-size: 18px;
+    color: #777;
+    margin-bottom: 40px;
+}
+
+.project-grid {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.project-item {
+    position: relative;
+    width: 300px;
+    overflow: hidden;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.15);
+}
+
+.project-item img {
+   width: 100%;
+    height: 200px;
+    object-fit: contain;
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 10px 10px 0 0;
+}
+
+.project-caption {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    padding: 12px;
+    background: rgba(0, 0, 0, 0.6);
+    color: #fff;
+    font-weight: bold;
+    font-size: 16px;
+    text-align: center;
+}
+
+/* Optional: Responsive */
+@media (max-width: 100px) {
+    .service-block, .project-item {
+        width: 100%;
+    }
+
+    .services-list {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+</style>
+
+
+<style>
+    .services-list {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    list-style: none;
+    padding: 0;
+    margin: 0 auto;
+    max-width: 1000px;
+    text-align: center;
+    gap: 20px;
+}
+
+.service-block {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 150px;
+}
+
+.service-block img {
+    width: 100px;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.service-block span {
+    font-size: 16px;
+    font-weight: bold;
+    color: #333;
+}
+
+</style>
+</section>
+
+<style>
+.right-align {
+    text-align: right;
+    color: #0056b3; /* Warna biru ditambahkan di sini */
+    font-size: 28px;
+    margin-bottom: 10px;
+}
+
+.vision-container {
+    font-size: 48px;
+    font-weight: 800;
+    line-height: 1.2;
+    color: #0056b3;
+    margin-bottom: 30px;
+}
+
+.vision-heading h3 {
+    font-size: 28px;
+    color: #0056b3;
+    margin-bottom: 20px;
+    line-height: 1.3;
+    font-weight: 600;
+}
+.service-block img {
+    width: 200px;
+    height: 150px;
+    object-fit: contain; /* mempertahankan proporsi gambar */
+    margin-bottom: 40px;
+    background-color: #fff;
+    border-radius: 16px;
+}
+
+
+</style>
+
+    <div class="section">
+  <h2>Our Projects Experiences</h2>
+  <p>Successfully Completed Projects</p>
+
+  <div class="project-grid">
+    <!-- Project 1 -->
+    <div class="project-item">
+      <img src="assets/img/portfolio/ONSHORE1.jpg" alt="On Shore">
+      <div class="project-caption">On Shore</div>
+    </div>
+
+    <!-- Project 2 -->
+    <div class="project-item">
+      <img src="assets/img/portfolio/OFFSHORE.jpg" alt="Sea Shore">
+      <div class="project-caption">Off Shore</div>
+    </div>
+
+    <!-- Project 3 -->
+    <div class="project-item">
+      <img src="assets/img/portfolio/POWERPLANT.jpg" alt="Swampy">
+      <div class="project-caption">Power Plant</div>
+    </div>
+  </div>
+</div>
+      <p>
+        Now we have more than 2000 employees, highly experience and competency,
+        and we're ready to take on though challenges in demanding environments.
+        We take on though challenges in demanding environments.
+      </p>
+    </div>
+
+  <!-- Brand Partner Section -->
+  <div class="section">
+    <h2 class="section-title">Brand Partner</h2>
+    <p class="section-subtitle">Our Amazing Partner</p>
+    <div class="partners">
+      <img src="assets/img/portfolio/PHR.png" alt="Pertmina Hulu Rokan" class="partner-logo" />
+      <img src="assets/img/portfolio/PERTAMINA EP.png" alt="Pertamina EP" class="partner-logo" />
+      <img src="assets/img/portfolio/ECOOIL.png" alt="ECOOIL" class="partner-logo" />
+      <img src="assets/img/portfolio/APICAL.png" alt="Apical" class="partner-logo" />
+      <img src="assets/img/portfolio/exxx.jpg" alt="Exxon Mobil" class="partner-logo" />
+      <img src="assets/img/portfolio/wilmar.jpg" alt="Wilmar" class="partner-logo" />
+    </div>
+    <p class="partner-description">
+      An amazing partner we are proud to work with. Their commitment to excellence, innovation and customer satisfaction is aligned with our values and goals.
+    </p>
+  </div>
+
+  <script>
+    function calculateYearsExperience() {
+      const foundingYear = 2018;
+      const currentYear = new Date().getFullYear();
+      return currentYear - foundingYear;
+    }
+    function animateCounter() {
+      const counter = document.getElementById('counter');
+      const target = calculateYearsExperience();
+      let current = 0;
+      const increment = target / 50;
+      const timer = setInterval(() => {
+        current += increment;
+        if (current >= target) {
+          counter.textContent = target;
+          clearInterval(timer);
+        } else {
+          counter.textContent = Math.floor(current);
+        }
+      }, 50);
+    }
+    function setupObserver() {
+      const badge = document.querySelector('.experience-badge');
+      const observer = new IntersectionObserver((entries) => {
+        entries.forEach(entry => {
+          if (entry.isIntersecting) {
+            animateCounter();
+            observer.unobserve(entry.target);
+          }
+        });
+      }, {
+        threshold: 0.5
+      });
+      observer.observe(badge);
+    }
+    document.addEventListener('DOMContentLoaded', function () {
+      setupObserver();
+    });
+  </script>
+</body>
+</html>
